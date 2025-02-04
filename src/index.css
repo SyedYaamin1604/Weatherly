@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+#div {
+  background-image: url("./assets/Weather.jpg");
+  min-height: 100vh;
+  min-width: 100vh;
+}
