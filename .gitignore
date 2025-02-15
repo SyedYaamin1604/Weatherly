@@ -16,8 +16,6 @@ dist-ssr
 .firebaserc
 firebase.json
 eslint.config.js
-package-lock.json
-package.json
 vite.config.js
 
 # Editor directories and files
