@@ -7,8 +7,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="text-white flex justify-between items-center min-h-[15vh] px-10 bg-gray-950 rounded-br-lg rounded-bl-lg bg-fixed opacity-70 xl:px-24 2xl:px-28">
-        <div className="text-2xl lg:text-4xl font-bold cursor-pointer hover:bg-gray-800 px-5 py-3 rounded-full transition-transform duration-500 ease-in-out transform hover:scale-105">
+      <div className="text-white flex justify-between items-center min-h-[15vh] px-5 w-full bg-gray-950 rounded-br-lg rounded-bl-lg bg-fixed opacity-70 xl:px-24 2xl:px-28">
+        <div className="text-xl lg:text-4xl font-bold cursor-pointer hover:bg-gray-800 py-3 rounded-full transition-transform duration-500 ease-in-out transform hover:scale-105">
           Weather<span className="text-orange-500">ly</span>
         </div>
         <div className="hidden lg:block">

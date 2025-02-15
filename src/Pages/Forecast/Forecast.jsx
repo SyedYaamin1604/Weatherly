@@ -26,14 +26,14 @@ const Forecast = () => {
 
   return (
     <div className="mt-5 py-10 text-center">
-      <h1 className="text-white text-3xl font-bold">
+      <h1 className="text-white text-xl lg:text-3xl font-bold">
         Real-Time Weather Forecast at your Fingertips
       </h1>
-      <p className="text-white text-lg mt-2 font-semibold">
+      <p className="text-white text-md mt-2 font-semibold">
         Select your location to get real-time Weather update
       </p>
       <div className="flex justify-center items-center text-black mt-5">
-        <div className="max-w-[40%] w-full flex flex-row">
+        <div className="px-10 lg:max-w-[50%] w-full flex flex-row">
           <input
             type="text"
             placeholder="Enter City"
@@ -51,7 +51,7 @@ const Forecast = () => {
       </div>
 
       {weather && weather.list && (
-        <div className="mt-10 bg-gray-950 opacity-50 shadow-xl rounded-xl p-6 text-center mx-20">
+        <div className="mt-10 bg-gray-950 opacity-60 shadow-xl rounded-xl p-6 text-center mx-2 lg:mx-10">
           <h3 className="text-4xl font-semibold text-white">
             {weather.city.name}, {weather.city.country}
           </h3>
